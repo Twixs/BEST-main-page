@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500');
+body {
+	font-family: "Montserrat", sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+	margin-top: 70px;
+	color: #5b5b5b;
+	-webkit-overflow-scrolling: touch;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Montserrat", sans-serif;
+	font-weight: 300;
+	color: #5b5b5b;
+}
+
+p{
+	line-height: 30px;
+	margin-bottom: 24px;
+	font-family: "Montserrat", sans-serif;
+	font-size: 18px;
+}
+
+.center{
+	text-align: center;
+}
+
+header {
+	background: url(../img/map.png) no-repeat right top;
+	height: 600px;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	list-style-type: none;
+	font-family: "Montserrat", sans-serif;
+	font-size: 18px;
+	margin: 0;
+	padding: 0;
+ 	line-height: 2;
+  	text-align: left;
+}
+
+.nav-link-main {
+	font-family: "Montserrat", sans-serif;
+	font-weight: bold;
+	color: #5b5b5b;
+}
+
+.nav-link {
+	font-family: "Montserrat", sans-serif;
+	color: #5b5b5b;
+}
+
+a:hover, a:focus {
+	text-decoration: none;
+	color: #167dbe;
+	outline: 0;
+}
+
+nav {
+	float: left;
+	margin-top: 40%;
+	display: flex;
+}
+
+.logo{
+	position: absolute;
+	max-height: 200px;
+	margin-top: 0;
+	padding: 0;
+}
