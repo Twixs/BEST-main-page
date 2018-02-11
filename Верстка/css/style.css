@@ -56,17 +56,22 @@ li {
 	font-family: "Montserrat", sans-serif;
 	color: #5b5b5b;
 }
-
 a:hover, a:focus {
 	text-decoration: none;
-	color: #167dbe;
+	list-style-type: none;
+	color: #5b5b5b;
 	outline: 0;
 }
 
-nav {
+nav{
 	float: left;
-	margin-top: 40%;
 	display: flex;
+}
+
+section {
+	display: flex;
+	margin:0;
+	padding: 0;
 }
 
 .logo{
@@ -74,4 +79,23 @@ nav {
 	max-height: 200px;
 	margin-top: 0;
 	padding: 0;
+}
+
+.media {
+	bottom: 0;
+}
+
+.timeline {
+	display: inline-block;
+	position:relative;
+}
+
+.title {
+	position: absolute;
+	text-align: center;
+	color: #fff;
+	left: 45px;
+    right: 45px;
+    top: 30%;
+    z-index: 40;
 }
