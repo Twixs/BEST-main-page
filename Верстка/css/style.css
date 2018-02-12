@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Lato|Montserrat');
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,500');
+
 body {
 	font-family: "Montserrat", sans-serif;
 	font-weight: 300;
@@ -28,7 +29,7 @@ p{
 
 header {
 	background: url(../img/map.png) no-repeat right top;
-	height: 600px;
+	height: 490px;
 }
 
 ul{
@@ -68,12 +69,6 @@ nav{
 	display: flex;
 }
 
-section {
-	display: flex;
-	margin:0;
-	padding: 0;
-}
-
 .logo{
 	position: absolute;
 	max-height: 200px;
@@ -82,12 +77,13 @@ section {
 }
 
 .media {
+	margin-top: 100%;
 	bottom: 0;
 }
 
 .timeline {
 	display: inline-block;
-	position:relative;
+	position: relative;
 }
 
 .title {
@@ -98,4 +94,9 @@ section {
     right: 45px;
     top: 30%;
     z-index: 40;
+}
+
+.project{
+	background: url(../img/background.png) no-repeat top center;
+	height: 600px;
 }
