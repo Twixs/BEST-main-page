@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500');
+
+body {
+	font-family: "Montserrat", sans-serif;
+	font-weight: 300;
+	font-size: 12pt;
+	color: #5b5b5b;
+	-webkit-overflow-scrolling: touch;
+}
+
+.slick-active {
+	outline: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Montserrat", sans-serif;
+	font-weight: 300;
+	color: #5b5b5b;
+}
+
+p{
+	line-height: 30px;
+	margin-bottom: 24px;
+}
+
+.center{
+	text-align: center;
+}
+
+header {
+	background: url(../img/map.png) no-repeat right top;
+	height: 100vh;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+ 	line-height: 2;
+  	text-align: left;
+}
+
+.navbar-nav {
+	margin-left: 5%;
+	margin-top: 80px;
+}
+
+.navbar-nav-menu {
+	display: flex;
+}
+
+.nav-link-main {
+	font-family: "Montserrat", sans-serif;
+	font-weight: bold;
+	color: #5b5b5b;
+}
+
+.nav-link {
+	font-family: "Montserrat", sans-serif;
+	color: #5b5b5b;
+}
+
+
+
+.nav-item ul {
+	margin-top: 10px;
+}
+
+.nav-item ul li a {
+	margin: 0;
+	padding: 0;
+}
+
+a:hover, a:focus {
+	text-decoration: none;
+	list-style-type: none;
+	color: #5b5b5b;
+	outline: 0;
+}
+
+
+.logo{
+	position: absolute;
+	max-height: 200px;
+	margin-top: 0;
+	padding: 0;
+}
+
+.media {
+	margin-top: 60px; 
+}
+
+.media li a {
+	color: #5b5b5b;
+	font-size: 11pt;
+	margin-right: 50px;
+	font-weight: 200;
+	text-decoration: none;
+}
+
+.timeline {
+	display: flex;
+	position: relative;
+	background-color: red;
+}
+
+.title {
+	color: #fff;
+	z-index: 40;
+	position: absolute;
+}
+
+.timeline-items div {
+	margin: 0;
+	height: 150px;
+	position: relative;
+	cursor: pointer;
+	background-color: #72a74f;
+	
+}
+
+.timeline-items div img {
+	height: 150px;
+}
+
+.content_pr {
+	padding: 30px;
+	margin: 0px 80px 20px 80px;
+}
+
+.proj_menu {
+	text-align: center;
+	display: inline-block;
+	margin-right: 35px;
+}
+
+.main_info {
+	margin: 20px 80px 20px 80px;
+	color: #5b5b5b;
+}
+
+.nav-link-proj {
+	font-family: "Montserrat", sans-serif;
+	font-weight: bold;
+	color: #ffffff;
+}
+
+.sc-p {
+	background-color: rgb(252, 6, 6);
+	height: 600px;
+}
+
+.hack-p {
+	background: url(../img/background.png) no-repeat top center;
+	height: 600px;
+}
+
+.ejf-p {
+	background: url(../img/map.png) no-repeat top center;
+	height: 600px;
+}
+
+.ebec-p {
+	background-color: rgb(231, 109, 8);
+	height: 600px;
+}
+
+.bsc-p {
+	background-color: rgb(195, 30, 236);
+	height: 600px;
+}
+
+.btw-p {
+	background-color: rgb(30, 236, 191);
+	height: 600px;
+}
+
+.footer {
+	background-color: #5b5b5b;
+	color: #ffffff;
+	text-align: center;
+	padding: 20px 30px 20px 30px;
+	display: flex;
+	
+}
+
+.prev, .next {
+	position: absolute;
+	z-index: 40;
+	font-size: 50pt;
+	bottom: -120px;
+	cursor: pointer;
+	transition: all 1s;
+}
+
+.next {
+	right: 5px;
+}
+
+.prev {
+	left: 5px;
+}
+
+.prev i {
+	color: #fff;
+}
+
+.next i {
+	color: #fff;
+}
+
+.prev:hover i{
+	font-size: 51pt;
+	color: rgb(255, 249, 249);
+}
+
+.next:hover i {
+	font-size: 51pt;
+	color: rgb(255, 249, 249);
+}
+
+.active {
+	box-shadow: 2px 8px 16px 2px rgba(0, 0, 0, 0.8), 2px 12px 40px 2px rgba(0, 0, 0, 0.9);
+	z-index: 100;
+}
