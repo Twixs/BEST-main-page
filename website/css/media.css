@@ -1,0 +1,13 @@
+@media (min-width: 600) {
+    .timeline-items div img {
+        width: 25vw;
+    }
+
+
+}
+
+@media (max-width: 425){
+    .timeline-items div img {
+        width: 50vw;
+    }
+}
