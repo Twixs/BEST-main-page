@@ -77,6 +77,37 @@
  })
 
 
+
+ //partners logo animation
+
+$(".tickest-logo").click( function () {
+    $(".tickest-logo").addClass("logo-active");
+    $(".global-logo").removeClass("logo-active");
+    $(".zoom-logo").removeClass("logo-active");
+    $(".dataart-logo").removeClass("logo-active");
+});
+
+$(".global-logo").click(function () {
+    $(".tickest-logo").removeClass("logo-active");
+    $(".global-logo").addClass("logo-active");
+    $(".zoom-logo").removeClass("logo-active");
+    $(".dataart-logo").removeClass("logo-active");
+});
+
+$(".zoom-logo").click(function () {
+    $(".tickest-logo").removeClass("logo-active");
+    $(".global-logo").removeClass("logo-active");
+    $(".zoom-logo").addClass("logo-active");
+    $(".dataart-logo").removeClass("logo-active");
+});
+
+$(".dataart-logo").click(function () {
+    $(".tickest-logo").removeClass("logo-active");
+    $(".global-logo").removeClass("logo-active");
+    $(".zoom-logo").removeClass("logo-active");
+    $(".dataart-logo").addClass("logo-active");
+});
+
  
 
 
