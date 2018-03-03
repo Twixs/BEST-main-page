@@ -1,4 +1,11 @@
 header {
-    height: auto;
+    height: 100vh;
 }
 
+.partners-head {
+    margin: 5% 80px;
+}
+
+.partners-head h2 {
+    font-size: 50pt;
+}
