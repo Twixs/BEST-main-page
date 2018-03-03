@@ -107,13 +107,15 @@ a:hover, a:focus {
 .timeline {
 	display: flex;
 	position: relative;
-	background-color: red;
+	background-color: #5b5b5b;
 }
 
 .title {
 	color: #fff;
 	z-index: 40;
 	position: absolute;
+	top: 30%;
+	left: 20%;
 }
 
 .timeline-items div {
