@@ -7,6 +7,7 @@ body {
 	font-size: 12pt;
 	color: #5b5b5b;
 	-webkit-overflow-scrolling: touch;
+	background: url(../img/map.png) no-repeat right top;
 }
 
 .slick-active {
@@ -29,7 +30,6 @@ p{
 }
 
 header {
-	background: url(../img/map.png) no-repeat right top;
 	height: 100vh;
 }
 
