@@ -2,6 +2,10 @@ header {
     height: 100vh;
 }
 
+.logos {
+    height: 100px;
+}
+
 .partners-head {
     margin: 5% 80px;
 }
@@ -58,10 +62,47 @@ header {
 
 
 .cpy-info {
-    height: 100px;
+    z-index: 10;
+    margin: 30px 0 10px 0;
+    background-color: transparent;
+}
+
+.cpy-info-block {
+    margin: 10px;
+    padding: 20px;
+    border-radius: 50px;
+}
+
+.carousel img {
+    height: 400px;
+    width: 571px;
+}
+
+.carousel:hover {
     -webkit-box-shadow: 0px 2px 18px 4px rgba(0, 0, 0, 0.5);
     -moz-box-shadow: 0px 2px 18px 4px rgba(0, 0, 0, 0.5);
     box-shadow: 0px 2px 18px 4px rgba(0, 0, 0, 0.5);
-    z-index: 10;
-    margin: 20px 0 10px 0;
 }
+
+.carousel-control-prev, .carousel-control-next, .carousel-indicators {
+    z-index: 110;
+}
+
+.cpy-opps {
+    margin: 0 auto;
+}
+
+.card {
+    margin: 20px;
+    transition: all 0.5s;
+} 
+
+.card:hover {
+    -webkit-box-shadow: 0px 2px 18px 4px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0px 2px 18px 4px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 2px 18px 4px rgba(0, 0, 0, 0.5);
+}
+
+
+
+

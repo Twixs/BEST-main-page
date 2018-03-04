@@ -108,7 +108,50 @@ $(".dataart-logo").click(function () {
     $(".dataart-logo").addClass("logo-active");
 });
 
- 
+//partners vacansies slider
+
+$('.cpy-vacancies').slick({
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    arrows: false,
+    dots: true,
+    autoplay: true,
+    autoplaySpeed: 2000,
+})
+
+//cpy info fading
+$(".globallogic").show();
+$(".tickets").hide();
+$(".dataart").hide();
+$(".zoomsupport").hide();
+
+$('.global-logo').click(function () {
+    $(".globallogic").show();
+    $(".tickets").hide();
+    $(".dataart").hide();
+    $(".zoomsupport").hide();
+});
+
+$('.tickest-logo').click(function () {
+    $(".globallogic").hide();
+    $(".tickets").show();
+    $(".dataart").hide();
+    $(".zoomsupport").hide();
+});
+
+$('.dataart-logo').click(function () {
+    $(".globallogic").hide();
+    $(".tickets").hide();
+    $(".dataart").show();
+    $(".zoomsupport").hide();
+});
+
+$('.zoom-logo').click(function () {
+    $(".globallogic").hide();
+    $(".tickets").hide();
+    $(".dataart").hide();
+    $(".zoomsupport").show();
+});
 
 
  
