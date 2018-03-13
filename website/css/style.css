@@ -155,7 +155,6 @@ a:hover, a:focus {
 }
 
 .sc-p {
-	//background-color: #faa61a;
     background: linear-gradient(to top, #faa61a, #f9c369);
 	height: 600px;
 }
@@ -182,7 +181,6 @@ a:hover, a:focus {
 }
 
 .btw-p {
-	//background-color: #71bf44;
     background: linear-gradient(to top, #a6f777, #71bf44);
 	height: 600px;
 }
