@@ -27,6 +27,7 @@ p{
 
 .center{
 	text-align: center;
+    margin-top: 25px;
 }
 
 header {
@@ -154,7 +155,8 @@ a:hover, a:focus {
 }
 
 .sc-p {
-	background-color: rgb(252, 6, 6);
+	//background-color: #faa61a;
+    background: linear-gradient(to top, #faa61a, #f9c369);
 	height: 600px;
 }
 
@@ -164,22 +166,24 @@ a:hover, a:focus {
 }
 
 .ejf-p {
-	background: url(../img/map.png) no-repeat top center;
+	background: #167dbe;
+    background: linear-gradient(to top, #167dbe, #6bbbed);
 	height: 600px;
 }
 
 .ebec-p {
-	background-color: rgb(231, 109, 8);
+	background-color: #faa61a;
 	height: 600px;
 }
 
 .bsc-p {
-	background-color: rgb(195, 30, 236);
+	background-color: #167dbe;
 	height: 600px;
 }
 
 .btw-p {
-	background-color: rgb(30, 236, 191);
+	//background-color: #71bf44;
+    background: linear-gradient(to top, #a6f777, #71bf44);
 	height: 600px;
 }
 
